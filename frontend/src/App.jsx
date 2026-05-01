@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import TaskCard from "./components/TaskCard";
 
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://task-management-system-backend-kbe8.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
